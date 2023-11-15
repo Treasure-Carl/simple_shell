@@ -11,7 +11,7 @@
 #define shell_TOK_BUFSIZE 64
 #define shell_TOK_DELIM " \t\r\n\a"
 
-int shell_builtins();
+int shell_builtins(void);
 int shell_cd(char **args);
 int shell_help(char **args);
 int shell_exit(char **args);
