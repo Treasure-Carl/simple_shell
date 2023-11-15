@@ -6,7 +6,7 @@ void shell_loop(void) {
   int status;
 
   do {
-    printf("> ");
+    printf("$ ");
     line = shell_read_line();
     args = shell_split_line(line);
     status = shell_execute(args);

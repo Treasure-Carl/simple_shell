@@ -1,4 +1,3 @@
-#include "builtins.h"
 #include "shell.h"
 
 char *built_in_string[] = { "cd", "help", "exit", "setenv", "unsetenv" };

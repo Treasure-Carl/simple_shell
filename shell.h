@@ -22,5 +22,7 @@ char **shell_split_line(char *line);
 void shell_loop(void);
 int shell_execute(char **args);
 int shell_launch(char **args);
+extern char *built_in_string[];
+extern int (*built_in_function[])(char **);
 
 #endif
