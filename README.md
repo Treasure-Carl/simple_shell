@@ -24,8 +24,8 @@ The shell is an incredibly cool project. GL HF!
 
 This simple shell project was a sole collaboration, **Treasure Olayinka** an Alx learner built this project implimenting necessary functions needed to run a terminal.
 
-## Legal
-=======
+Legal
+=====
 
 *Brought to you courtesy of ALX SE Projects. for more context on ALX SE Program see the https://www.alxafrica.com/about/ About ALX Programs*
 
@@ -33,7 +33,7 @@ Use and transfer of this project may be suibjected to certain restrictions by AL
 
 For more information, please check see their projects repo [alx github](https://github.com/topics/alx)
 
-## Licensing
-============
+Licensing
+=========
 
 Simple Shell project is licensed under the ALX SE License.
