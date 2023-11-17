@@ -1,5 +1,11 @@
 #include "shell.h"
 
+/**
+ * shell_launch - splits a string into words. Repeat delimiters are ignored
+ * @args: the input string
+ *
+ * Return: a pointer to an array of strings, or NULL on failure
+ */
 
 int shell_launch(char **args)
 {

@@ -1,5 +1,11 @@
 #include "shell.h"
 
+/**
+ * shell_read_line - gets a line minus the newline
+ * @void: no parameter struct
+ *
+ * Return: bytes read
+ */
 
 char *shell_read_line(void)
 {

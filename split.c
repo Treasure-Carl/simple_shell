@@ -1,5 +1,12 @@
 #include "shell.h"
 
+/**
+ * shell_split_line - concatenates two strings
+ * @line: the source buffer
+ *
+ * Return: pointer to destination buffer
+ */
+
 char **shell_split_line(char *line)
 {
 	int bufsize = shell_TOK_BUFSIZE, position = 0;

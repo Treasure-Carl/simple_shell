@@ -1,9 +1,11 @@
 #include "shell.h"
 
-/*
- * _main - functions as the main progran
- * @args: takes in no arguement
- * Return: (0)
+/**
+ * main - entry point
+ * @argc: arg count
+ * @argv: arg vector
+ *
+ * Return: 0 on success, 1 on error
  */
 
 int main(int argc __attribute__((unused)), char **argv __attribute__((unused)))

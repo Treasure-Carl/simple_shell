@@ -1,5 +1,12 @@
 #include "shell.h"
 
+/**
+ * shell_execute - prints the current environment
+ * @args: Structure containing potential arguments. Used to maintain
+ *          constant function prototype.
+ * Return: Always 0
+ */
+
 int shell_execute(char **args)
 {
 	int i;

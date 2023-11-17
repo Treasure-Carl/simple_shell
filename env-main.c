@@ -1,5 +1,11 @@
 #include "shell.h"
 
+/**
+ * shell_cd - changes the current directory of the process
+ * @args: Structure containing potential arguments. Used to maintain
+ *          constant function prototype.
+ *  Return: Always 0
+ */
 
 int shell_cd(char **args)
 {

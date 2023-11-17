@@ -1,9 +1,10 @@
 #include "shell.h"
 
-/*
- * _shell_help - helps with instructions
- *
- * Return: help on success
+/**
+ * shell_help - changes the current directory of the process
+ * @args: Structure containing potential arguments. Used to maintain
+ *          constant function prototype.
+ *  Return: Always 0
  */
 
 int shell_help(char **args __attribute__((unused)))
@@ -21,10 +22,11 @@ int shell_help(char **args __attribute__((unused)))
 	return (1);
 }
 
-/*
- * _shell_exit - exits the shell
- *
- * Return: (1) on success
+/**
+ * shell_exit - exits the shell
+ * @args: Structure containing potential arguments. Used to maintain
+ *          constant function prototype.
+ *  Return: exits with a given exit status
  */
 
 int shell_exit(char **args __attribute__((unused)))

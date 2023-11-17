@@ -1,14 +1,10 @@
 #include "shell.h"
 
 /*
- * main - built_in_string
- * - built_in_function
+ * shell_builtins - includes the cd,ls,setenv,unsetenv
+ * @void - returns void params
  *
- *   @shell_cd
- *   @shell_help
- *   @shell_exit
- *   @shell_setenv
- *   @shell_unsetenv
+ * Return: Always (1)
  */
 
 char *built_in_string[] = {
